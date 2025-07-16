@@ -1,17 +1,17 @@
 # Conversor de Moedas (Java)
-Um simples e eficiente conversor de moedas desenvolvido em Java, utilizando uma API externa para obter taxas de câmbio em tempo real. Este projeto foi criado como parte do curso de Java da Alura, com foco em boas práticas de programação, separação de responsabilidades e tratamento de exceções.
+Um simples e eficiente conversor de moedas desenvolvido em Java, utilizando uma API externa para obter taxas de câmbio em tempo real. Este projeto foi criado como parte do curso de Java da Alura com pareceria da Oracle, com foco em boas práticas de programação, separação de responsabilidades e tratamento de exceções.
 
 ## Funcionalidades
 * Conversão de Moedas: Permite converter valores entre Dólar (USD), Real Brasileiro (BRL), Euro (EUR) e Libra Esterlina (GBP).
 
-* Taxas de Câmbio em Tempo Real: Utiliza a ExchangeRate-API para obter as taxas de conversão mais atualizadas.
+* Taxas de Câmbio em Tempo Real: Utiliza a [ExchangeRate-API](https://www.exchangerate-api.com/) para obter as taxas de conversão mais atualizadas.
 
 * Interface de Linha de Comando (CLI): Interação simples e intuitiva via console.
 
 * Tratamento de Erros Robusto: Lida com entradas inválidas do usuário e problemas de comunicação com a API, garantindo que o programa não pare inesperadamente.
 
 ## Tecnologias Utilizadas:
-* Java 17+
+* Java 21+
 
 * Gson: Biblioteca Java para serialização/desserialização de objetos Java para/de JSON.
 
@@ -30,7 +30,7 @@ O projeto segue o princípio de Separação de Responsabilidades, com cada class
 
 ## Como Usar
 ### Pré-requisitos
-* Java Development Kit (JDK) 17 ou superior instalado.
+* Java Development Kit (JDK) 21 ou superior instalado.
 
 * Uma chave de API da [ExchangeRate-API](https://www.exchangerate-api.com/) . Você precisará substituir ```YOUR_API_KEY``` no arquivo ```ApiExchangeClient.java``` pela sua chave.
 
