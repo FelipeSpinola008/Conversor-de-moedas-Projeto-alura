@@ -54,17 +54,6 @@ URI code = URI.create("https://v6.exchangerate-api.com/v6/YOUR_API_KEY/pair/" + 
 ### 4. Compile e Execute:
 
 * **Via IDE (IntelliJ IDEA, Eclipse, VS Code):** Abra o projeto na sua IDE e execute a classe ```Main.java```.
-
-* **Via Terminal (após compilação):**
-```` Java
-# Navegue até a pasta raiz do seu projeto
-# Compile os arquivos .java (certifique-se de que o Gson.jar está no classpath)
-javac -cp "caminho/para/gson-2.10.1.jar" src/main/java/*.java -d out
-
-# Execute o programa (certifique-se de que o Gson.jar está no classpath)
-java -cp "out:caminho/para/gson-2.10.1.jar" Main
-````
-
 (Ajuste o caminho/para/gson-2.10.1.jar para o local onde você baixou o JAR do Gson.)
 
 ## Como o Tratamento de Erros Funciona
