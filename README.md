@@ -66,4 +66,4 @@ O programa foi projetado para ser robusto e não parar inesperadamente. As exce�
 * __Erros da API/Rede:__ Se houver um problema ao consultar a ExchangeRate-API (ex: sem conexão com a internet, chave de API inválida, ou erro na resposta da API), o programa exibe uma mensagem de erro e retorna ao menu principal.
 
 ## Autor
-Felipe Spinola - [Github](https://github.com/FelipeSpinola008) - [LinkedIn](https://www.linkedin.com/in/felipespinola008/)
+### Felipe Spinola - [Github](https://github.com/FelipeSpinola008) - [LinkedIn](https://www.linkedin.com/in/felipespinola008/)
